@@ -1,0 +1,6 @@
+# ── Core dependencies ──────────────────────────────────────────────────────────
+python-binance==1.0.19      # Binance REST + WebSocket SDK (testnet support built-in)
+python-dotenv==1.0.1        # Load API keys from .env file
+
+# ── Optional – improves CLI colour output on all platforms (incl. Windows) ────
+colorama==0.4.6

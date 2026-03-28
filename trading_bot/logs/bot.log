@@ -1,0 +1,68 @@
+2025-07-10 14:22:01 | DEBUG    | bot.logging_config | setup_logging:57 | Logging initialised. File → /path/to/trading_bot/logs/bot.log  |  Level → DEBUG
+2025-07-10 14:22:01 | DEBUG    | bot.validators | validate_symbol:42 | Symbol validated: BTCUSDT
+2025-07-10 14:22:01 | DEBUG    | bot.validators | validate_side:61 | Side validated: BUY
+2025-07-10 14:22:01 | DEBUG    | bot.validators | validate_order_type:80 | Order type validated: MARKET
+2025-07-10 14:22:01 | DEBUG    | bot.validators | validate_quantity:103 | Quantity validated: 0.001
+2025-07-10 14:22:01 | DEBUG    | bot.validators | validate_price:127 | Price argument ignored for MARKET order.
+2025-07-10 14:22:01 | DEBUG    | bot.client | get_client:57 | Initialising Binance Futures Testnet client …
+2025-07-10 14:22:02 | INFO     | bot.client | get_client:69 | Binance Futures Testnet client ready. Ping OK.
+2025-07-10 14:22:02 | INFO     | bot.orders | place_order:76 | Placing MARKET BUY order | symbol=BTCUSDT qty=0.001
+2025-07-10 14:22:02 | DEBUG    | bot.orders | place_order:92 | API request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2025-07-10 14:22:03 | DEBUG    | bot.orders | place_order:111 | API raw response: {'orderId': 3265489201, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-HNA3LTNP7dfe3d9a2b14c', 'price': '0', 'avgPrice': '57842.30', 'origQty': '0.001', 'executedQty': '0.001', 'cumQty': '0.001', 'cumQuote': '57.84230', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'time': 1720617723341, 'updateTime': 1720617723341}
+2025-07-10 14:22:03 | INFO     | bot.orders | place_order:117 | Order placed successfully | orderId=3265489201 status=FILLED executedQty=0.001 avgPrice=57842.30
+
+2025-07-10 14:25:44 | DEBUG    | bot.logging_config | setup_logging:57 | Logging initialised. File → /path/to/trading_bot/logs/bot.log  |  Level → DEBUG
+2025-07-10 14:25:44 | DEBUG    | bot.validators | validate_symbol:42 | Symbol validated: BTCUSDT
+2025-07-10 14:25:44 | DEBUG    | bot.validators | validate_side:61 | Side validated: SELL
+2025-07-10 14:25:44 | DEBUG    | bot.validators | validate_order_type:80 | Order type validated: LIMIT
+2025-07-10 14:25:44 | DEBUG    | bot.validators | validate_quantity:103 | Quantity validated: 0.001
+2025-07-10 14:25:44 | DEBUG    | bot.validators | validate_price:145 | Price validated: 100000
+2025-07-10 14:25:44 | DEBUG    | bot.client | get_client:57 | Initialising Binance Futures Testnet client …
+2025-07-10 14:25:45 | INFO     | bot.client | get_client:69 | Binance Futures Testnet client ready. Ping OK.
+2025-07-10 14:25:45 | INFO     | bot.orders | place_order:82 | Placing LIMIT SELL order  | symbol=BTCUSDT qty=0.001 price=100000 timeInForce=GTC
+2025-07-10 14:25:45 | DEBUG    | bot.orders | place_order:92 | API request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'price': '100000', 'timeInForce': 'GTC'}
+2025-07-10 14:25:46 | DEBUG    | bot.orders | place_order:111 | API raw response: {'orderId': 3265502847, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-HNA3LTNP9af12cd874b1e', 'price': '100000.00', 'avgPrice': '0', 'origQty': '0.001', 'executedQty': '0', 'cumQty': '0', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'time': 1720617946182, 'updateTime': 1720617946182}
+2025-07-10 14:25:46 | INFO     | bot.orders | place_order:117 | Order placed successfully | orderId=3265502847 status=NEW executedQty=0 avgPrice=100000.00
+2026-03-28 16:14:43 | DEBUG    | bot.logging_config | setup_logging:66 | Logging initialised. File → C:\Users\OM\Desktop\internshala\trading_bot\logs\bot.log  |  Level → DEBUG
+2026-03-28 16:14:43 | DEBUG    | bot.validators | validate_symbol:44 | Symbol validated: BTCUSDT
+2026-03-28 16:14:43 | DEBUG    | bot.validators | validate_side:66 | Side validated: BUY
+2026-03-28 16:14:43 | DEBUG    | bot.validators | validate_order_type:89 | Order type validated: MARKET
+2026-03-28 16:14:43 | DEBUG    | bot.validators | validate_quantity:116 | Quantity validated: 0.001
+2026-03-28 16:15:02 | DEBUG    | bot.logging_config | setup_logging:66 | Logging initialised. File → C:\Users\OM\Desktop\internshala\trading_bot\logs\bot.log  |  Level → DEBUG
+2026-03-28 16:15:02 | DEBUG    | bot.validators | validate_symbol:44 | Symbol validated: BTCUSDT
+2026-03-28 16:15:02 | DEBUG    | bot.validators | validate_side:66 | Side validated: BUY
+2026-03-28 16:15:02 | DEBUG    | bot.validators | validate_order_type:89 | Order type validated: MARKET
+2026-03-28 16:15:02 | DEBUG    | bot.validators | validate_quantity:116 | Quantity validated: 0.001
+2026-03-28 16:19:21 | DEBUG    | bot.logging_config | setup_logging:66 | Logging initialised. File → C:\Users\OM\Desktop\internshala\trading_bot\logs\bot.log  |  Level → DEBUG
+2026-03-28 16:19:21 | DEBUG    | bot.validators | validate_symbol:44 | Symbol validated: BTCUSDT
+2026-03-28 16:19:21 | DEBUG    | bot.validators | validate_side:66 | Side validated: BUY
+2026-03-28 16:19:21 | DEBUG    | bot.validators | validate_order_type:89 | Order type validated: MARKET
+2026-03-28 16:19:21 | DEBUG    | bot.validators | validate_quantity:116 | Quantity validated: 0.001
+2026-03-28 16:19:21 | DEBUG    | bot.client | get_client:57 | Initialising Binance Futures Testnet client …
+2026-03-28 16:19:23 | INFO     | bot.client | get_client:71 | Binance Futures Testnet client ready. Ping OK.
+2026-03-28 16:19:23 | INFO     | bot.orders | place_order:97 | Placing MARKET BUY order | symbol=BTCUSDT qty=0.001
+2026-03-28 16:19:23 | DEBUG    | bot.orders | place_order:116 | API request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-03-28 16:19:24 | ERROR    | bot.orders | place_order:121 | Binance API error placing MARKET BUY BTCUSDT order: code=-4164 msg=Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-28 16:20:10 | DEBUG    | bot.logging_config | setup_logging:66 | Logging initialised. File → C:\Users\OM\Desktop\internshala\trading_bot\logs\bot.log  |  Level → DEBUG
+2026-03-28 16:20:10 | DEBUG    | bot.validators | validate_symbol:44 | Symbol validated: BTCUSDT
+2026-03-28 16:20:10 | DEBUG    | bot.validators | validate_side:66 | Side validated: BUY
+2026-03-28 16:20:10 | DEBUG    | bot.validators | validate_order_type:89 | Order type validated: MARKET
+2026-03-28 16:20:10 | DEBUG    | bot.validators | validate_quantity:116 | Quantity validated: 0.002
+2026-03-28 16:20:10 | DEBUG    | bot.client | get_client:57 | Initialising Binance Futures Testnet client …
+2026-03-28 16:20:12 | INFO     | bot.client | get_client:71 | Binance Futures Testnet client ready. Ping OK.
+2026-03-28 16:20:12 | INFO     | bot.orders | place_order:97 | Placing MARKET BUY order | symbol=BTCUSDT qty=0.002
+2026-03-28 16:20:12 | DEBUG    | bot.orders | place_order:116 | API request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.002'}
+2026-03-28 16:20:12 | DEBUG    | bot.orders | place_order:133 | API raw response: {'orderId': 13001898794, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'sljNLo9HAj8QiptAsyLQ0I', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774695012653}
+2026-03-28 16:20:12 | INFO     | bot.orders | place_order:135 | Order placed successfully | orderId=13001898794 status=NEW executedQty=0.000 avgPrice=0.00
+2026-03-28 16:20:54 | DEBUG    | bot.logging_config | setup_logging:66 | Logging initialised. File → C:\Users\OM\Desktop\internshala\trading_bot\logs\bot.log  |  Level → DEBUG
+2026-03-28 16:20:54 | DEBUG    | bot.validators | validate_symbol:44 | Symbol validated: BTCUSDT
+2026-03-28 16:20:54 | DEBUG    | bot.validators | validate_side:66 | Side validated: SELL
+2026-03-28 16:20:54 | DEBUG    | bot.validators | validate_order_type:89 | Order type validated: LIMIT
+2026-03-28 16:20:54 | DEBUG    | bot.validators | validate_quantity:116 | Quantity validated: 0.002
+2026-03-28 16:20:54 | DEBUG    | bot.validators | validate_price:158 | Price validated: 100000
+2026-03-28 16:20:54 | DEBUG    | bot.client | get_client:57 | Initialising Binance Futures Testnet client …
+2026-03-28 16:20:56 | INFO     | bot.client | get_client:71 | Binance Futures Testnet client ready. Ping OK.
+2026-03-28 16:20:56 | INFO     | bot.orders | place_order:108 | Placing LIMIT SELL order  | symbol=BTCUSDT qty=0.002 price=100000 timeInForce=GTC
+2026-03-28 16:20:56 | DEBUG    | bot.orders | place_order:116 | API request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.002', 'price': '100000', 'timeInForce': 'GTC'}
+2026-03-28 16:20:56 | DEBUG    | bot.orders | place_order:133 | API raw response: {'orderId': 13001900142, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'c7KCdnNJ0Xn6eM4AN5Yz7d', 'price': '100000.00', 'avgPrice': '0.00', 'origQty': '0.002', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774695056625}
+2026-03-28 16:20:56 | INFO     | bot.orders | place_order:135 | Order placed successfully | orderId=13001900142 status=NEW executedQty=0.000 avgPrice=0.00
